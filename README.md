@@ -1,0 +1,2 @@
+# fpga_eg4s20_dev
+FPGAのEG4S20でFPGAのお勉強
