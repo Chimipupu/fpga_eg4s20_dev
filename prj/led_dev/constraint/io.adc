@@ -1,0 +1,12 @@
+## Tang Primer EG4S20のピンアサイン
+
+## 水晶/クリスタル(K14ピン)
+set_pin_assignment {CLK_IN} { LOCATION = K14; }         ##24MHZ
+
+## 基板のボタン(K16ピン)
+set_pin_assignment {RST_N} { LOCATION = K16; }          ##USER_KEY
+
+## 基板のLED(RGBの順でR3ピン,J14ピン,P13ピン)
+set_pin_assignment {RGB_LED[0]} { LOCATION = R3;  }     ##LED_R, R3
+set_pin_assignment {RGB_LED[1]} { LOCATION = J14;  }    ##LED_G, J14
+set_pin_assignment {RGB_LED[2]} { LOCATION = P13;  }    ##LED_B, P13
